@@ -1,0 +1,44 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    background-color: rgb(237, 198, 125);
+    padding: 50px;
+    margin: 0;
+    font-size: 48px;
+    letter-spacing: 0.5rem;
+    border-bottom: 3px solid rgb(41, 32, 32);
+}
+.description {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+}
+img {
+    margin-top: 1rem;
+    margin-right: auto;
+    border: 10px solid rgb(221, 147, 10);
+    width: 700px;
+    height: auto;
+}
+.description, .steps, .ingredients {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    
+}
+div {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+.ingredients {
+    background-color: rgb(160, 116, 116);
+}
+.steps {
+    background-color: rgb(158, 195, 158);
+}
